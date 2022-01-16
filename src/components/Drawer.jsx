@@ -1,4 +1,6 @@
-function Drawer() {
+import React from 'react';
+
+const Drawer = () => {
   return (
     <div style={{ display: 'none' }} className="overlay">
       <div className="drawer">
@@ -64,6 +66,6 @@ function Drawer() {
       </div>
     </div>
   );
-}
+};
 
 export default Drawer;
